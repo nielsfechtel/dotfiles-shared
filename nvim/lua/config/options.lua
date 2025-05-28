@@ -44,3 +44,10 @@ vim.wo.number = true
 -- Quickfix-list navigation keys
 vim.keymap.set("n", "<M-j>", "<cmd>cnext<CR>zz")
 vim.keymap.set("n", "<M-k>", "<cmd>cprev<CR>zz")
+
+vim.opt.listchars = {
+  tab = "> ",
+  trail = " ",
+  nbsp = "+",
+}
+vim.opt.list = true
