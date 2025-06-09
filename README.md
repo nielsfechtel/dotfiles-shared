@@ -8,3 +8,4 @@
 ```
 # My dotfiles
 Shared files for my cosmetic and devcontainer dotfiles. 
+I include them in those repos via Git submodule.
