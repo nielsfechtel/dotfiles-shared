@@ -1,5 +1,3 @@
-print("notify_and_hardtime.lua loaded")
-
 return {
   {
     "m4xshen/hardtime.nvim",
