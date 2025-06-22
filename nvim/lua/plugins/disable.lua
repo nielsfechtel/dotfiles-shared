@@ -14,4 +14,12 @@ return {
     "tadmccorkle/markdown.nvim",
     enabled = false,
   },
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+      filesystem = {
+        hijack_netrw_behavior = "false",
+      },
+    },
+  },
 }
