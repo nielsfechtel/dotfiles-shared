@@ -11,10 +11,6 @@ return {
     },
   },
   {
-    "folke/flash.nvim",
-    enabled = false,
-  },
-  {
     "tadmccorkle/markdown.nvim",
     enabled = false,
   },
