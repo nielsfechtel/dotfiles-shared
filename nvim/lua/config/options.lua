@@ -11,7 +11,7 @@ local general = augroup("General", { clear = true })
 vim.g.snacks_animate = false
 
 vim.o.clipboard = "unnamedplus"
-vim.opt.relativenumber = false
+vim.opt.relativenumber = true
 
 -- Leader-key
 vim.g.mapleader = " "
