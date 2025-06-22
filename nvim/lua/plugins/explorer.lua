@@ -34,6 +34,13 @@ return {
         end,
         desc = "Open mini.files (cwd)",
       },
+      {
+        "<leader>FM",
+        function()
+          require("mini.files").open(LazyVim.root(), true)
+        end,
+        desc = "Open mini.files (root)",
+      },
     },
     config = function(_, opts)
       require("mini.files").setup(opts)
