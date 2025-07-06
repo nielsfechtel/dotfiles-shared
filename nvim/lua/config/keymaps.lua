@@ -11,3 +11,10 @@ vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
+
+-- https://lazyvim-ambitious-devs.phillips.codes/course/chapter-9/#_scratch_buffers
+vim.keymap.set("n", "<leader><delete>", function()
+  Snacks.bufdelete()
+end, { desc = "Close Buffer" })
+vim.keymap.set("n", "<leader>bo", Snacks.bufdelete.other, { desc = "Close Other Buffers" })
+vim.keymap.set("n", "<leader><CR>", "<cmd>%bd<cr>", { desc = "Close All Buffers" })
