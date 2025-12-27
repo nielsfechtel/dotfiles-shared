@@ -2,15 +2,32 @@ k9s:
   refreshRate: 1
   maxConnRetry: 15
   readOnly: false
+  liveViewAutoRefresh: true
   ui:
     enableMouse: false
-    skin: catppuccin-latte-transparent
+    #skin: axual
+    #skin: catppuccin-macchiato
+    #skin: everforest-dark
+    #skin: gruvbox-dark-hard
+    #skin: gruvbox-dark
+    #skin: gruvbox-light-hard
+    #skin: gruvbox-material-dark-hard
+    #skin: gruvbox-material-dark-soft
+    #skin: gruvbox-material-light-soft
+    #skin: in-the-navy
+    skin: kanagawa
+    #skin: narsingh
+    #skin: nightfox
+    #skin: one-dark
+    #skin: rose-pine
+    #skin: solarized-dark
+    #skin: stock
   logger:
     tail: 200
     buffer: 1000
     sinceSeconds: 600
-    textWrap: false
-    showTime: false
+    textWrap: true
+    showTime: true
   thresholds:
     cpu:
       critical: 90
